@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.notepad {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #3498db;
+}
+
+button#save-button {
+    background-color: #217dbb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button#save-button:hover {
+    background-color: #0e639c;
+}
+
+textarea {
+    width: 100%;
+    min-height: 300px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: none;
+    border-radius: 0 0 8px 8px;
+}
